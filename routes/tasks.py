@@ -1,5 +1,5 @@
 from fastapi import APIRouter,HTTPException
-from schemas import TaskCreate,TaskUpdate
+from schema.schemas import TaskCreate,TaskUpdate
 import models
 
 router=APIRouter(prefix="/tasks",tags=["Tasks"]) 

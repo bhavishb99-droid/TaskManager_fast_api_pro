@@ -1,4 +1,4 @@
-from database import get_connection
+from database.database import get_connection
 
 def create_task(task):
     conn=get_connection()
